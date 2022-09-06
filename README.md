@@ -5,15 +5,15 @@ sample.vb の用にパラメーター指定を簡素に書けるようにして�
 # 制限
 現在以下のパラメーターに対応しています。
 
-・Int32
-・Int32配列
-・String
-・String配列
-・DateTimeEx(※)
-・Boolean
-・Boolean配列
-・Decimal
-・Decimal配列
+- Int32
+- Int32配列
+- String
+- String配列
+- DateTimeEx(※)
+- Boolean
+- Boolean配列
+- Decimal
+- Decimal配列
 
 ※VB.NET標準の日付型はDateとDateTimeが区別されずDBパラメーターとして使用する際に型判別ができないため、DateTimeをラップしたクラスを作成しました。
 
